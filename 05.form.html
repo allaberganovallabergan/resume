@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>Form</h1>
+    <form action="">
+        <div>
+            <label for="text">text</label>
+            <input type="text" id="text" value="ведите техт">
+        </div>
+        <div>
+            <label for="email">email</label>
+            <input type="email" id="email" placeholder="ведите email">
+        </div>
+        <div>
+            <label for="password">password</label>
+            <input type="password" id="password">
+        </div>
+        <div>
+            <label for="number">number</label>
+            <input type="number" id="number" min="0" max="10">
+        </div>
+        <div>
+            <label for="range">range</label>
+            <input type="range" id="range" min="0" max="10" step="1">
+        </div>
+        <div>
+            <label for="date">date</label>
+            <input type="date" id="date">
+        </div>
+        <div>
+            <label for="color">color</label>
+            <input type="color" id="color">
+        </div>
+        <div>
+            <label for="message">message</label>
+            <br>
+            <textarea cols="19" id="message"></textarea>
+        </div>
+        <div>
+            <label for="sex">Ваш пол</label>
+            <select id="sex">
+                <option value="male">Male</option>
+                <option value="famale">Famale</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div>
+            <label>Колтчества работ </label>
+            <input type="radio" name="work">1
+            <input type="radio" name="work">2
+            <input type="radio" name="work">3
+            <input type="radio" name="work">4
+            <input type="radio" name="work">5
+        </div>
+        <div>
+            <label>Колтчества работ </label>
+            <input type="checkbox" name="food">cake
+            <input type="checkbox" name="food">banana
+            <input type="checkbox" name="food">apple
+            <input type="checkbox" name="food">qiwi
+            <input type="checkbox" name="food">water
+        </div>
+        <div>
+            <label for="time">time</label>
+            <input type="time" id="time">
+        </div>
+        <div>
+            <label for="datetime">datetime</label>
+            <input type="datetime-local" id="datetime">
+        </div>
+
+        <div>
+            <label for="file">file</label>
+            <input type="file" id="file">
+        </div>
+
+        <div>
+            <label for="hidden">hidden</label>
+            <input type="hidden" id="hidden">
+        </div>
+        <!-- <input type="submit" value="отправить форму"> -->
+        <button type="submit">отправить форму</button>
+    </form>
+    <form action="">
+        <h1>home task</h1>
+        <div>
+            <label for="text"> Ваше Имя:</label>
+            <input type="text" id="text" placeholder="Введите имя">
+        </div>
+        <div>
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" placeholder="Введите email">
+        </div>
+        <label for="message">Ваше Сообщение:</label>
+        <br>
+        <textarea name="message" id="message">Введите сообщение</textarea>
+        <br>
+        <input type="submit" value="Оправить!">
+    </form>
+
+</body>
+
+</html>
